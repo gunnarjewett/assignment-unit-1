@@ -1,5 +1,7 @@
 /* Give your page a fun background color */
-
+* {
+    margin: 0;
+}
 body {
     background-color:rgb(37, 144, 108);
 }
@@ -7,10 +9,18 @@ body {
 /* Make the header and footer a different color from the background */
 
 header {
-    background-color:rgb(159, 75, 215);
+    
+    width: 100%;
+    background-color: rgb(159, 75, 215);
+    margin-bottom: 10px;
 }
 
 footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
     background-color: rgb(159, 75, 215);
 }
 
@@ -30,7 +40,7 @@ p.q{
 
 img {
     border-style: double;
-    
+    margin: 5px;
 }
 
 /* Change the font-family of your list */
